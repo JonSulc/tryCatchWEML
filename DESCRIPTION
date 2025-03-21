@@ -1,0 +1,25 @@
+Package: tryCatchWEML
+Type: Package
+Title: Implements a function which catches all warnings, errors, messages, and
+    and text output of a function
+Version: 1.0.0
+Authors@R: c(
+    person(
+      "Giacomo", "von Alvensleben",
+      email = "giacomo.vonalvensleben@epfl.ch",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Jonathan", "Sulc",
+      email = "jonathan.sulc@epfl.ch",
+      role = c("aut", "cre")
+    )
+  )
+Description: Implements a function which catches all warnings, errors, messages, and
+    and text output of a function
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
